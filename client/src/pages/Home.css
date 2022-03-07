@@ -1,0 +1,161 @@
+.headerHome {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgba(241, 196, 15, 1) 20%,
+    rgba(243, 172, 18, 1) 100%
+  );
+}
+
+.Cards {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Onecard {
+  width: 200px;
+  margin: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #c2a3d1; */
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 600px;
+  border-radius: 5px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+  margin-bottom: 40px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #fc9400;
+  color: #fff;
+  padding: 22px 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+}
+
+i {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.title {
+  color: black;
+  font-weight: 400;
+}
+
+.container__text {
+  padding: 40px 40px 0;
+}
+
+.container__text__star span {
+  font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.container__text__timing {
+  display: flex;
+  margin: 20px 0 10px;
+}
+
+.container__text__timing_time {
+  margin-right: 40px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818189;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+strong {
+  color: green;
+}
+
+.dropdown {
+  margin-right: 50px;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  z-index: 1;
+
+  margin-left: -60px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logoutBtn {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: #fc9400;
+}
+.logoutBtn:hover {
+  color: #fff;
+  background-color: #fc9400;
+}
+
+.existAccountText {
+  padding-top: 10px;
+}
+
+.existAccountText:hover {
+  color: blue;
+}

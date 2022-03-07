@@ -1,0 +1,112 @@
+.adminHeader {
+  padding: 10px;
+  display: flex;
+
+  justify-content: center;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgba(241, 196, 15, 1) 20%,
+    rgba(243, 172, 18, 1) 100%
+  );
+}
+
+.headerAdminHome {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgba(241, 196, 15, 1) 20%,
+    rgba(243, 172, 18, 1) 100%
+  );
+}
+
+.TableData {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 80%;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.TableData thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.TableData th,
+.TableData td {
+  padding: 20px 23px;
+}
+
+.TableBox {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.EditButton {
+  margin-top: 5px;
+  width: 100%;
+  padding: 11px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  cursor: pointer;
+  transition: all, 240ms ease-in-out;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgb(15, 105, 241) 20%,
+    rgb(18, 30, 202) 100%
+  );
+}
+
+.EditButton:hover {
+  color: blue;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgb(160, 163, 167) 20%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.deleteButton {
+  margin-top: 5px;
+  width: 100%;
+  padding: 11px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  cursor: pointer;
+  transition: all, 240ms ease-in-out;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgb(241, 15, 15) 20%,
+    rgb(243, 18, 18) 100%
+  );
+}
+
+.deleteButton:hover {
+  color: red;
+  background: rgb(241, 196, 15);
+  background: linear-gradient(
+    58deg,
+    rgb(255, 255, 255) 20%,
+    rgb(255, 254, 254) 100%
+  );
+}
